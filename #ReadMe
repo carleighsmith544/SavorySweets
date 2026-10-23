@@ -1,0 +1,32 @@
+# SavorySweets 🧁🍰
+
+SavorySweets is a modern cross-platform recipe browsing application built using **.NET MAUI** and **C#**, targeting Android, iOS, and Windows devices. It enables users to browse curated recipes, manage favorite collections, toggle light/dark themes, and inspect detailed cooking instructions.
+
+## 🛠 Tech Stack
+- **Framework:** .NET MAUI
+- **Language:** C# (.NET 8/9)
+- **UI Markup:** XAML
+- **Architecture:** Controller & Data Service Layered Pattern
+
+## ✨ Features
+- **Categorized Recipe Browsing:** Filter recipes by meal difficulty, preparation time (e.g., 5-minute meals), and popular picks.
+- **Favorites Management:** Save and access favorite dishes with localized data services.
+- **Dynamic Theming:** Seamless dark and light theme switching via dedicated theme controllers.
+- **Multi-Platform Deployment:** Single codebase targeting Windows desktop and mobile platforms.
+
+## 📁 Architecture Overview
+- `Controllers/`: Handles business logic and UI navigation workflows (`RecipeController`, `FavoriteController`, `UserController`).
+- `Data/`: Manages data access and state persistence (`RecipeDataService`, `FavoriteDataService`).
+- `Platforms/`: Platform-specific configurations for Android, iOS, and Windows.
+
+## 🚀 Getting Started Locally
+
+### Prerequisites
+- Visual Studio 2022 (with the **.NET Multi-platform App UI development** workload installed)
+- .NET SDK
+
+### Running the Project
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/yourusername/SavorySweets.git](https://github.com/yourusername/SavorySweets.git)
+   cd SavorySweets
